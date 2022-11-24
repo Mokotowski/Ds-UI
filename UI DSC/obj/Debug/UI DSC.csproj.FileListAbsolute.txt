@@ -1,0 +1,10 @@
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\UI DSC.exe.config
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\UI DSC.exe
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\UI DSC.pdb
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.AssemblyReference.cache
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.SuggestedBindingRedirects.cache
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI_DSC.Properties.Resources.resources
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.GenerateResource.cache
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.CoreCompileInputs.cache
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.exe
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.pdb

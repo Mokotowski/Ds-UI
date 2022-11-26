@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UI_DSC
 {
-    public partial class Mainmenu : Form
+    public partial class UserInterface : Form
     {
-        public Mainmenu()
+        public UserInterface()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -8,3 +8,30 @@ C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.Gen
 C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.CoreCompileInputs.cache
 C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.exe
 C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.pdb
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI_DSC.Mainmenu.resources
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI_DSC.LoginForm.resources
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI_DSC.Registration.resources
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI_DSC.UserInterface.resources
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\Google.Protobuf.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\MySql.Data.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Buffers.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Memory.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\ZstdNet.dll
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\Google.Protobuf.pdb
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\Google.Protobuf.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\MySql.Data.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Buffers.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Memory.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bartek\source\repos\Mokotowski\Ds-UI\UI DSC\obj\Debug\UI DSC.csproj.CopyComplete

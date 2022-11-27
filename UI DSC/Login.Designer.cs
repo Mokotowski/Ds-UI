@@ -34,6 +34,7 @@
             this.logintxt = new System.Windows.Forms.TextBox();
             this.passwordtxt = new System.Windows.Forms.TextBox();
             this.wrongdata = new System.Windows.Forms.Label();
+            this.hidepassword = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // loginlbl
@@ -92,7 +93,17 @@
             this.wrongdata.TabIndex = 7;
             this.wrongdata.Text = "Błedne dane logowania!";
             this.wrongdata.Visible = false;
-            this.wrongdata.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // hidepassword
+            // 
+            this.hidepassword.AutoSize = true;
+            this.hidepassword.Location = new System.Drawing.Point(221, 165);
+            this.hidepassword.Name = "hidepassword";
+            this.hidepassword.Size = new System.Drawing.Size(86, 17);
+            this.hidepassword.TabIndex = 8;
+            this.hidepassword.Text = "Pokaż hasło";
+            this.hidepassword.UseVisualStyleBackColor = true;
+            this.hidepassword.Click += new System.EventHandler(this.hidepassword_Click);
             // 
             // LoginForm
             // 
@@ -100,6 +111,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(353, 340);
+            this.Controls.Add(this.hidepassword);
             this.Controls.Add(this.wrongdata);
             this.Controls.Add(this.passwordtxt);
             this.Controls.Add(this.logintxt);
@@ -107,8 +119,9 @@
             this.Controls.Add(this.passwordlbl);
             this.Controls.Add(this.loginlbl);
             this.Name = "LoginForm";
-            this.Text = "Form2";
+            this.Text = "Discorrd";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginForm_FormClosing);
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,5 +134,6 @@
         private System.Windows.Forms.TextBox logintxt;
         private System.Windows.Forms.TextBox passwordtxt;
         private System.Windows.Forms.Label wrongdata;
+        private System.Windows.Forms.CheckBox hidepassword;
     }
 }

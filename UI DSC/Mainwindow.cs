@@ -28,5 +28,10 @@ namespace UI_DSC
             Registration register = new Registration();
             register.ShowDialog();
         }
+
+        private void Mainmenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

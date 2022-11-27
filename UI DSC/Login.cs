@@ -14,14 +14,14 @@ namespace UI_DSC
 {
     public partial class LoginForm : Form
     {
+        public MySqlConnection con { get; private set; }
+
         public LoginForm()
         {
             InitializeComponent();
         }
-        public string haslo { get; private set; }
-        public string login { get; private set; }
 
-        private void btnlogin_Click(object sender, EventArgs e)
+        private void LoginForm_Load(object sender, EventArgs e)
         {
             string server = "116.202.211.83";
             string database = "db_79640";
@@ -30,51 +30,52 @@ namespace UI_DSC
             string cs = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + username + ";" + "PASSWORD=" + password + ";";
             var con = new MySqlConnection(cs);
             con.Open();
-
-            login = logintxt.Text; // Przypisanie wartości z pola tekstowego. Działa dobrze więc jak narazie zostawiam.
-            haslo = passwordtxt.Text; // Tutaj tak samo jak powyżej
-
-            void Logowanie(string login, string haslo)
-            {
-                string query = "select count(*) from users WHERE login ='" + login + "' AND haslo ='" + haslo + "'";
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                int Count = int.Parse(cmd.ExecuteScalar() + "");
-                if (Count == 1)
-                {
-                    MessageBox.Show($"Zalogowano pomyślnie");
-                }
-                else
-                {
-                    wrongdata.Visible = true;
-                    logintxt.Clear();
-                    passwordtxt.Clear();
-                }
-            }
+        }
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+           string login = logintxt.Text; 
+           string haslo = passwordtxt.Text; 
             Logowanie(login, haslo);
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        void Logowanie(string login, string haslo)
         {
-
+            string query = "select count(*) from users WHERE login ='" + login + "' AND haslo ='" + haslo + "'";
+            MySqlCommand cmd = new MySqlCommand(query, con);
+            int Count = int.Parse(cmd.ExecuteScalar() + "");
+            if (Count == 1)
+            {
+                this.Hide();
+                UserInterface userInterface = new UserInterface();
+                userInterface.Show();
+            }
+            else
+            {
+                wrongdata.Visible = true;
+                logintxt.Clear();
+                passwordtxt.Clear();
+            }
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void passwordtxt_TextChanged(object sender, EventArgs e)
         {
             passwordtxt.UseSystemPasswordChar = true;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
+
+        private void hidepassword_Click(object sender, EventArgs e)
+        {
+            if (hidepassword.Checked)
+            {
+                passwordtxt.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                passwordtxt.UseSystemPasswordChar = true;
+            }
+        }
+
     }
 }

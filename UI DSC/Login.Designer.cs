@@ -35,6 +35,7 @@
             this.passwordtxt = new System.Windows.Forms.TextBox();
             this.wrongdata = new System.Windows.Forms.Label();
             this.hidepassword = new System.Windows.Forms.CheckBox();
+            this.chkcon = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loginlbl
@@ -105,12 +106,21 @@
             this.hidepassword.UseVisualStyleBackColor = true;
             this.hidepassword.Click += new System.EventHandler(this.hidepassword_Click);
             // 
+            // chkcon
+            // 
+            this.chkcon.AutoSize = true;
+            this.chkcon.Location = new System.Drawing.Point(168, 284);
+            this.chkcon.Name = "chkcon";
+            this.chkcon.Size = new System.Drawing.Size(0, 13);
+            this.chkcon.TabIndex = 9;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(353, 340);
+            this.Controls.Add(this.chkcon);
             this.Controls.Add(this.hidepassword);
             this.Controls.Add(this.wrongdata);
             this.Controls.Add(this.passwordtxt);
@@ -135,5 +145,6 @@
         private System.Windows.Forms.TextBox passwordtxt;
         private System.Windows.Forms.Label wrongdata;
         private System.Windows.Forms.CheckBox hidepassword;
+        private System.Windows.Forms.Label chkcon;
     }
 }
